@@ -6,7 +6,7 @@
   "scripts": {
     "get-about": "ts-node --files src/scripts/get-about",
     "check-types": "tsc -p . --noEmit",
-    // "prebuild": "yarn get-about && yarn check-types",
+    "prebuild": "yarn get-about && yarn check-types",
     "build": "gatsby build",
     "prestart": "yarn get-about",
     "start": "gatsby develop",
